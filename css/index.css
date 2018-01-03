@@ -1,0 +1,9 @@
+div > p{
+	font-style: italic;
+
+}
+
+div > h1{
+	font-weight:bolder;
+	text-decoration: underline ; 
+}

@@ -10,3 +10,14 @@ p {
 img {
 	border-radius: 5%
 }
+a {
+	text-decoration: none;
+	color: black;
+}
+a:visited {
+	text-decoration: underline;
+	color: inherit;
+}
+a:hover {
+	color: red;
+}
