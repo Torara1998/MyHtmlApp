@@ -22,3 +22,27 @@ a:visited {
 a:hover {
 	color: red;
 }
+figure {
+	border:2px solid black;
+	width: 100%;
+	padding: 3px;
+	margin: 0px;
+}
+figcaption {
+	font-style: italic;
+	text-align: center;
+}
+img {
+	max-width: 100%;
+	width: 100%;
+}
+@media screen and (min-width: 450px) {
+	figure {
+		width: 77px;
+	}
+}
+@media screen and (min-width:600px) {
+	figure {
+		width:120px;
+	}
+}
