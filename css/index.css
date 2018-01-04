@@ -7,3 +7,25 @@ div > h1{
 	font-weight:bolder;
 	text-decoration: underline ; 
 }
+ #bill-gates {
+	background-color: #692519;
+
+}
+
+#stephen-hawking{
+background-color: white;
+
+}
+
+#charlice-puth{
+background-color: #607b1a;
+}
+#napoleon-bonaparte{
+background-color: #607b4a
+}
+
+div.people {
+	border-bottom: 6px solid currentColor;
+	padding: 15px;
+	margin: 15px;
+}
