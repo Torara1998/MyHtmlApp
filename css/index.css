@@ -9,19 +9,21 @@ div > h1{
 }
  #bill-gates {
 	background-color: #692519;
-
+	text-align: justify;
 }
 
 #stephen-hawking{
 background-color: white;
-
+text-align: justify;
 }
 
 #charlice-puth{
 background-color: #928e87;
+text-align: justify;
 }
 #napoleon-bonaparte{
 background-color: #607b4a;
+text-align: justify;
 }
 
 div.people {
@@ -41,20 +43,12 @@ div.name{
 	width: 25%;
 	float: left;
 	padding-right: 9px;
+	text-shadow: 2px 2px 8px #FF0000
+
 }
 div.biography {
-	width: 70%;
-	float: left;
+	width: 60%;
+	float: right;
 	padding-left: 9px;
 }
 
-@media screen and (min-width: 450px) {
-	figure {
-		width: 77px;
-	}
-}
-@media screen and (min-width:600px) {
-	figure {
-		width:120px;
-	}
-}
