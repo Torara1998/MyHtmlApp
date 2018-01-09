@@ -40,17 +40,61 @@ img {
 @media screen and (min-width: 450px) {
 	figure {
 		width: 77px;
+		}
+}
+@media screen and (min-width:600px) {
+	figure {
+		width:120px;
+	}
+	#bill-ava{ content:url( "../images/bill_gates_s.jpg"); 
+	}	
+}
+@media screen and (min-width:600px) {
+	figure {
+		width:120px;
+	}
+	#stephen-ava{ content:url("../images/stephen_hawking_s.jpg"); 
 	}
 }
 @media screen and (min-width:600px) {
 	figure {
 		width:120px;
 	}
+	#charlice-ava{ content:url( "../images/charlice_puth_s.jpg"); 
+	}	
+}
+@media screen and (min-width:600px) {
+	figure {
+		width:120px;
+	}
+	#napoleon-ava{ content:url( "../images/napoleon_bonaparte_s.jpg"); 
+	}	
+}
+@media screen and (min-width:900px) {
+	figure {
+		width:280px;}
+	#bill-ava{ content:url("../images/bill_gates.jpg");
+	}	
+}
+@media screen and (min-width:900px) {
+	figure {
+		width:280px;}
+	#stephen-ava{ content:url("../images/stephen_hawking.jpg"); 
+	} 
 }
 @media screen and (min-width:900px) {
 	figure {
 		width:280px;
 	}
+	#charlice-ava{ content:url( "../images/charlice_puth.jpg"); 
+	}	
+}
+@media screen and (min-width:900px) {
+	figure {
+		width:280px;
+	}
+	#napoleon-ava{ content:url( "../images/napoleon_bonaparte.jpg"); 
+	}	
 }
 @media screen and (min-width:1080px) {
 	figure {
