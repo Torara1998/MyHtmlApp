@@ -8,6 +8,7 @@
 
   		 <link rel="stylesheet" type="text/css" href="css/app.css">
   		 <link rel="stylesheet" type="text/css" href="css/index.css">
+  		 <link rel="stylesheet" type="text/css" href="fontawesome/css/font-awesome.css">
   	</head>
 
 	<body>
@@ -32,23 +33,36 @@
 		
 		<p >
 			Tôi có 4 người ngưỡng mộ trên thế giới đó là:
-
-			<ol id="people-menu">
-
-				<li>
-					<a href="#bill-gates">Bill Gates:</a>
-				</li>
-				<li>
-					<a href="#stephen-hawking">Stephen Hawking:</a> 
-				</li>
-				<li>
-					<a href="#charlice-puth">Charlice Puth:</a> 
-				</li>
-				<li>
-					<a href="#napoleon-bonaparte">Napoleon Bonaparte:</a> 
-				</li>
-			</ol>
 		</p>
+	
+		<div class="row">
+			<div class="col-md-3 col-sm-6">
+			<button  type="button" class="btn btn-primary button-people" id="btn-bill">+Bill Gates</button>
+			<a id="anchor-bill" class="btn btn-primary hidden" href="#bill-gates">
+				<i class="fa fa-fast-forward fa-rotate-90" aria-hidden="true"></i>
+
+			</a>
+			</div>
+			<div class="col-md-3 col-sm-6">
+			<button type="button" class="btn btn-success button-people" id="btn-stephen">+Stephen Hawking</button>
+			<a id="anchor-stephen" class="btn btn-success hidden" href="#stephen-hawking">
+				<i class="fa fa-fast-forward fa-rotate-90" aria-hidden="true"></i>
+			</a>
+			</div>
+			<div class="col-md-3 col-sm-6">
+			<button type="button" class="btn btn-info button-people" id="btn-puth">+Charlice Puth</button>
+			<a id="anchor-puth" class="btn btn-info hidden" href="#charlice-puth">
+				<i class="fa fa-fast-forward fa-rotate-90" aria-hidden="true"></i>
+			</a>
+			</div>
+			<div class="col-md-3 col-sm-6">
+			<button type="button" class="btn btn-danger button-people" id="btn-napoleon">+Napoleon Bonaparte</button>
+			<a id="anchor-napoleon" class="btn btn-danger hidden" href="#napoleon-bonaparte">
+				<i class="fa fa-fast-forward fa-rotate-90" aria-hidden="true"></i>
+			</a>
+			</div>
+		</div>		
+
 
 
 		<div id="bill-gates" class="people hidden">
@@ -190,7 +204,9 @@
 				</p>
 			</div>
 	 	</div>
-		<script type="text/javascript" src="scripts/index.js"></script>	
+		<script type="text/javascript" src="scripts/jquery-scripts/jquery-3.2.1.min.js"></script>	
+	 	<script type="text/javascript" src="scripts/jquery-scripts/index.js"></script>
+	 	<script type="text/javascript" src="bootstrap/dist/css/bootstrap.css"></script>
 	</body>
 
 </html>

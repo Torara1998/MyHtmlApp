@@ -51,4 +51,6 @@ div.biography {
 	float: right;
 	padding-left: 9px;
 }
-
+.button-people {
+	width: 200px;
+}
